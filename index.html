@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Âncora | Administradora de Condomínios</title>
+  <meta
+    name="description"
+    content="Administradora de condomínios focada em gestão real, operação completa e valorização do patrimônio."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css?v=20260327-3">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="#" aria-label="Âncora">
+        <img
+          src="https://blogger.googleusercontent.com/img/a/AVvXsEh0cXr63HB7wo5dEHOOiUCYMCogvJQJBE7TRZVZAcFpdFYByzafWcxVuO90rmmf8XBKBKY_3wQ5I_MNf39eh5Q9K_GpyJyclQLeVyoZEWorvj6wIEg54YwMGA2GVjPtPyvPNoNbOcDytwEorO9EghJnv5VNM2ZubOu8gL-5V9HnecUmKNOCLTIf0EVmx8g"
+          alt="Âncora"
+          width="112"
+          height="28"
+          loading="eager"
+          decoding="sync"
+          fetchpriority="high"
+          referrerpolicy="no-referrer"
+          crossorigin="anonymous"
+          onerror="this.onerror=null;this.src='assets/ancora-logo-white.png?v=20260327-1';"
+        >
+      </a>
+      <a class="button button--light button--small" href="#formulario">
+        <span>QUERO ORGANIZAR MEU CONDOMÍNIO</span>
+        <span class="button__arrow" aria-hidden="true"></span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-stage">
+      <section class="hero">
+        <div class="shell hero__grid">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              <span class="hero__title-accent">Administradora<br>de Condomínios</span>
+              <span class="hero__title-regular">que Resolve<br>de Verdade</span>
+            </h1>
+            <p class="hero__copy">
+              BPO Financeiro, burocracia, assembleias e conflitos, <strong>tudo organizado para o síndico deixar de apagar incêndio</strong> e começar a gerir com tranquilidade
+            </p>
+          </div>
+
+          <form class="lead-form" id="formulario" novalidate>
+            <label class="sr-only" for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Nome">
+
+            <label class="sr-only" for="whatsapp">Whatsapp</label>
+            <input id="whatsapp" name="whatsapp" type="tel" placeholder="Whatsapp">
+
+            <label class="sr-only" for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="E-mail">
+
+            <label class="sr-only" for="papel">Qual é o seu papel no condomínio?</label>
+            <div class="lead-form__select custom-select" data-select>
+              <input id="papel" name="papel" type="hidden" value="">
+              <button
+                class="custom-select__trigger"
+                type="button"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-controls="papel-opcoes"
+              >
+                <span class="custom-select__text">Qual é o seu papel no condomínio?</span>
+                <span class="custom-select__arrow" aria-hidden="true"></span>
+              </button>
+              <div class="custom-select__menu" id="papel-opcoes" role="listbox">
+                <button class="custom-select__option" type="button" role="option" data-value="Síndico">Síndico</button>
+                <button class="custom-select__option" type="button" role="option" data-value="Conselheiro">Conselheiro</button>
+                <button class="custom-select__option" type="button" role="option" data-value="Morador">Morador</button>
+                <button class="custom-select__option" type="button" role="option" data-value="Administrador">Administrador</button>
+              </div>
+            </div>
+
+            <label class="sr-only" for="condominio">Qual é o nome do condomínio?</label>
+            <input id="condominio" name="condominio" type="text" placeholder="Qual é o nome do condomínio?">
+
+            <button class="button button--primary button--block" type="submit">QUERO UMA COTAÇÃO</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="diagnosis">
+        <div class="shell diagnosis__inner">
+          <h2 class="section-title section-title--light">Diagnóstico e Blindagem da Gestão</h2>
+
+          <div class="diagnosis__cards">
+            <article class="diag-card">
+              <div class="diag-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <circle cx="10" cy="10" r="5.5"></circle>
+                  <path d="M14.5 14.5L19.5 19.5"></path>
+                  <path d="M10 7.7V12.3"></path>
+                  <path d="M7.7 10H12.3"></path>
+                </svg>
+              </div>
+              <p>
+                <strong>O objetivo é mapear os pontos críticos do seu condomínio</strong>
+                antes de qualquer contrato para você saber exatamente onde estão os riscos e o que precisa ser resolvido primeiro.
+              </p>
+            </article>
+
+            <article class="diag-card">
+              <div class="diag-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M5.5 18.5V10.5"></path>
+                  <path d="M10.5 18.5V7.5"></path>
+                  <path d="M15.5 18.5V12.5"></path>
+                  <path d="M3.5 18.5H19"></path>
+                  <path d="M16.5 7.5H20.5"></path>
+                  <path d="M18.5 5.5V9.5"></path>
+                </svg>
+              </div>
+              <p>
+                Nesta fase, analisamos a situação financeira, a inadimplência,
+                os processos administrativos e o <strong>histórico de conflitos do seu condomínio.</strong>
+              </p>
+            </article>
+
+            <article class="diag-card">
+              <div class="diag-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M12 4.75L17.75 7V11.75C17.75 15.1 15.55 17.9 12 19.25C8.45 17.9 6.25 15.1 6.25 11.75V7L12 4.75Z"></path>
+                  <path d="M9.5 12.25L11.25 14L14.75 10.5"></path>
+                </svg>
+              </div>
+              <p>
+                <strong>Com 18 anos de mercado e centenas de condomínios assessorados,</strong>
+                identificamos em horas o que muitos síndicos levam meses para perceber que está errado.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="activation">
+      <div class="shell activation__inner">
+        <div class="activation__title">
+          <h2>
+            Ativação<br>
+            da <strong>Gestão</strong><br>
+            <strong>Completa</strong>
+          </h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__marker" aria-hidden="true">1</span>
+            <p>
+              Foco em quem precisa de resultado real, não de mais burocracia
+              <strong>Assumimos a operação completa:</strong> cobranças, assembleias, fornecedores, documentação e atendimento aos moradores.
+            </p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__marker" aria-hidden="true">2</span>
+            <p>
+              <strong>Aqui o foco é ser organizado.</strong> Boletos emitidos no prazo,
+              inadimplência tratada com processo, assembleia conduzida com ata, prestação de contas clara e síndico com tempo para gerir o que importa.
+            </p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__marker" aria-hidden="true">3</span>
+            <p>
+              Nosso sistema de gestão garante pronto atendimento em todos os canais,
+              <strong>o síndico tem acesso a tudo,</strong> em tempo real, sem depender de ligação ou e-mail perdido.
+            </p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="shell">
+        <article class="patrimony-card">
+          <div class="patrimony-card__header">Relacionamento, Escala e Valorização do Patrimônio</div>
+          <div class="patrimony-card__body">
+            <p>
+              Transformando gestão reativa em condomínio valorizado e comunidade funcional.
+              <strong>Administrar condomínio não é só pagar conta.</strong>
+            </p>
+            <p>
+              É construir um ambiente onde os moradores respeitam as regras, os conflitos têm protocolo de resolução e o patrimônio se valoriza ao longo do tempo.
+              Trabalhamos ao lado do síndico, não apenas para ele. Com a operação validada e o condomínio organizado, o síndico deixa de apagar incêndio e passa a liderar de verdade.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="shell trust__inner">
+        <h2 class="trust__title">
+          Condomínios<br>
+          que <span>confiam</span><br>
+          <span>na Âncora</span>
+        </h2>
+
+        <div class="trust__slider" aria-label="Área de logos de condomínios">
+          <button class="trust__arrow trust__arrow--left" type="button" aria-label="Anterior"></button>
+          <div class="trust__track" aria-hidden="true"></div>
+          <button class="trust__arrow trust__arrow--right" type="button" aria-label="Próximo"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons">
+      <div class="shell reasons__inner">
+        <article class="outlined-card outlined-card--center">
+          <h2>Por que escolher a <span>Âncora</span>?</h2>
+          <p>
+            Resultado, gestão real e patrimônio valorizado Síndico, vamos te tirar da operação e colocar na liderança
+            Converter inadimplência em caixa saudável Crescimento com processo, não com improviso Buscar condomínio organizado,
+            não só aparência de gestão.
+          </p>
+          <strong>Se você quer só alguém para assinar papel, a Âncora não é para você.</strong>
+        </article>
+
+        <article class="outlined-card outlined-card--process">
+          <h2>Como <span>organizamos</span> o seu condomínio?</h2>
+
+          <div class="process-list">
+            <div class="process-item">
+              <span class="pill">GESTÃO FINANCEIRA COMPLETA</span>
+              <p>
+                emissão de boletos, controle de inadimplência, prestação de contas e orçamento anual estruturado
+                para o condomínio parar de sangrar dinheiro sem saber por quê.
+              </p>
+            </div>
+
+            <div class="process-item">
+              <span class="pill">ASSESSORIA JURÍDICA E BUROCRÁTICA</span>
+              <p>
+                Assessoria jurídica e burocrática: convenção, regulamento interno, atas de assembleia,
+                contratos com fornecedores, tudo documentado, assinado e arquivado corretamente.
+              </p>
+            </div>
+
+            <div class="process-item">
+              <span class="pill">ATENDIMENTO MULTICANAL AO SÍNDICO E MORADORES</span>
+              <p>
+                Atendimento multicanal ao síndico e moradores: sistema de gestão com acesso em tempo real,
+                pronto atendimento e histórico registrado sem informação perdida, sem síndico refém de uma ligação.
+              </p>
+            </div>
+
+            <div class="process-item">
+              <span class="pill">REDUZIMOS O SEU DESGASTE OPERACIONAL</span>
+              <p>
+                Reduzimos o seu desgaste operacional: nossa equipe assume a rotina pesada
+                para você focar no que só o síndico pode fazer, representar, decidir e liderar.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq__shell">
+        <details class="faq-item" open>
+          <summary>
+            <span>Preciso entender de administração para trabalhar com vocês?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-item__content">
+            <p>
+              Reduzimos o seu desgaste operacional: nossa equipe assume a rotina pesada
+              para você focar no que só o síndico pode fazer, representar, decidir e liderar.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Trocar de administradora não é muito trabalhoso?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-item__content">
+            <p>
+              A transição é feita pela nossa equipe, com processo estruturado e prazo definido.
+              O condomínio não para, o síndico não precisa gerenciar a troca.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Vocês realmente resolvem conflitos entre moradores?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-item__content">
+            <p>
+              Temos protocolo para isso. Não eliminamos conflito humano, mas criamos estrutura de regras,
+              comunicação e mediação que reduz drasticamente a frequência e o desgaste.
+            </p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span>Em quanto tempo a gestão começa a funcionar de verdade?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-item__content">
+            <p>
+              Nos primeiros 30 dias o condomínio já tem canais de atendimento ativos e o síndico
+              com visibilidade real do que está acontecendo.
+            </p>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <p>Siga a Âncora e entre em contato</p>
+      <a class="button button--primary button--footer" href="#formulario">QUERO ORGANIZAR MEU CONDOMÍNIO</a>
+    </div>
+  </footer>
+
+  <script src="script.js?v=20260326-3"></script>
+</body>
+</html>
