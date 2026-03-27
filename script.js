@@ -65,26 +65,6 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-const brandElement = document.querySelector(".brand[data-remote-logo]");
-const brandLogoElement = document.querySelector(".brand__logo");
-
-if (brandElement && brandLogoElement) {
-  const remoteLogoUrl = brandElement.getAttribute("data-remote-logo");
-
-  if (remoteLogoUrl) {
-    const remoteLogo = new Image();
-
-    remoteLogo.referrerPolicy = "no-referrer";
-    remoteLogo.crossOrigin = "anonymous";
-
-    remoteLogo.addEventListener("load", () => {
-      brandLogoElement.style.backgroundImage = `url("${remoteLogoUrl}")`;
-    });
-
-    remoteLogo.src = remoteLogoUrl;
-  }
-}
-
 const faqItems = document.querySelectorAll(".faq-item");
 
 faqItems.forEach((item) => {
